@@ -1,0 +1,49 @@
+/* Header and Navigation */
+
+.container {
+  margin: auto;
+  max-width: 1024px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+.colmar {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.academy {
+  font-size: 2rem;
+}
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.desktop a {
+  display: inline-block;
+  padding-right: 0.5rem;
+  font-size: 1.25rem;
+  cursor: auto;
+  text-decoration: none;
+  color: black;
+}
+
+/* Introduction */
