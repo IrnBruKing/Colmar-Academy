@@ -322,10 +322,6 @@ nav.mobile {
   flex-direction: column;
 }
 
-.lecture {
-  background-color: white;
-}
-
   .second-info {
     border-top: 0px;
     border-bottom: 0px;
@@ -496,7 +492,6 @@ nav.mobile {
     width: 100%;
     padding: 0px;
   }
-
 
   .flex .left-section p {
     display: none;
