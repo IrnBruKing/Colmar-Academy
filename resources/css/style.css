@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1050px;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -57,8 +57,8 @@ span {
   line-height: .95rem;
 }
 
+/* Navigation Section */
 
-/* navigation bar section */
 header {
   background-color: white;
 }
@@ -136,8 +136,8 @@ nav.mobile {
   }
 }
 
+/* Introduction */
 
-/* Main Banner Section */
 .main-banner {
   background-color: #DCDCDC;
   margin: 0 auto;
@@ -236,8 +236,8 @@ nav.mobile {
   }
 }
 
+/* Further Information Section */
 
-/* Keep Practicing Section */
 .practice {
   display: flex;
   justify-content: space-between;
@@ -313,18 +313,18 @@ nav.mobile {
     display: none;
   }
 
-  .practice .right-section {
-    border-left: 0px;
-    padding: 16px 16px 32px 16px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-  }
+.practice .right-section {
+  border-left: 0px;
+  padding: 16px 16px 32px 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .lecture {
-    background-color: white;
-  }
+.lecture {
+  background-color: white;
+}
 
   .second-info {
     border-top: 0px;
@@ -356,10 +356,10 @@ nav.mobile {
   }
 }
 
-
 /* Courses Section */
+
 .learning {
-  background-color: #F5F5F5;
+  background-color: #DCDCDC;
   padding-bottom: 32px;
   display: flex;
   justify-content: space-between;
@@ -457,8 +457,8 @@ nav.mobile {
     }
 }
 
-
 /* Thesis Section */
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -508,6 +508,7 @@ nav.mobile {
 }
 
 /* Footer Section */
+
 footer {
   border-top: 1px solid #DCDCDC;
   background-color: white;
